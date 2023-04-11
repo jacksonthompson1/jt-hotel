@@ -30,8 +30,8 @@
         <ul class="navbar-nav">
             <li class="navbar-brand">CIS 376 Hotel Lab</li>
             <li class="navitem"><a class="nav-link" href="https://gist.github.com/barrycumbie/892372aa45634b0a28b7354ea076bac6" target="_blank">Hotel Story Card</a> </li>
-            <li class="navitem"><a class="nav-link" href="https://github.com/bcoan2/glowing-waffle-hotel" target="_blank">My Repo</a> </li>
-            <li class="navitem"><a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbcoan2.github.io%2Fglowing-waffle-hotel%2F" target="_blank">Validity Checker</a> </li>
+            <li class="navitem"><a class="nav-link" href="https://github.com/jacksonthompson1/jt-hotel" target="_blank">My Repo</a> </li>
+            <li class="navitem"><a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjacksonthompson1.github.io%2Fjt-hotel%2F" target="_blank">Validity Checker</a> </li>
             <li class="navitem"><button id="btnLoadData" class="btn btn-secondary">Load Saved Data</button></li>
 
         </ul>
@@ -41,7 +41,7 @@
 
 
     <!-- Beginning of Form -->
-    <h1 style="text-align:center;">Application for a Pet</h1>
+    <h1 style="text-align:center;">Application Form for Snowboard Rental</h1>
 
     <div class="container">
         <form>
@@ -351,7 +351,7 @@
                     <!-- Date of Birth Selector-->
                     <div class="row">
                         <div class="col-75">
-                            <label for="myDateTimeLocal">Date and time pet wanted by</label>
+                            <label for="myDateTimeLocal">Date and time board wanted by</label>
                             <input type="datetime-local" name="myDateTimeLocal" id="myDateTimeLocal" />
                             <br />
                         </div>
@@ -359,7 +359,7 @@
 
                     <!-- Male or Female -->
                     <div>
-                    <label for="pet">Preferred Sex of Pet</label>
+                    <label for="board">What is your sex?</label>
                     </div>
                     <input type="radio" id="male" name="gender" value="M">   <label for="male">Male</label><br>
 
@@ -368,30 +368,24 @@
                 </div>
             </div>
             
-            <!-- Pet Selection -->
+            <!-- Snowboard Selection -->
             <div class="row">
                 <div class="col-md-5 offset-md-1 card">
                     <div class="card-body">
 
-                        <h4 class="card-title">Pet Selection</h4>
+                        <h4 class="card-title">Snowboard Selection</h4>
 
-                        <label for="petKind" class="form-label">Pet Types</label>
-                        <select id="petKind" class="form-select" name="petName">
+                        <label for="boardKind" class="form-label">Snowboard Brands</label>
+                        <select id="boardKind" class="form-select" name="boardName">
               <option value="" disabled selected>Select your option</option>
-              <option value="Dog">Dog</option>
-              <option value="Cat">Cat</option>
-              <option value="Horse">Horse</option>
-              <option value="Snake">Snake?</option>
-              <option value="Rabbit">Rabbit</option>
-              <option value="Fish">Fish</option>
-              <option value="Turtle">Turtle</option>
-              <option value="Bird">Bird</option>
-              <option value="Camel">Maybe a camel?</option>
+              <option value="Burton">Burton</option>
+              <option value="Arbor">Arbor</option>
+              <option value="Capita">Capita</option>
             </select>
                        <hr />
-                       <label for="petName" class="form-label">Pet Breeds</label>
-                        <select id="petName" class="form-select" name="petName" disabled>
-              <option>Select your pet type first.</option>
+                       <label for="boardName" class="form-label">Snowboard types</label>
+                        <select id="boardName" class="form-select" name="boardName" disabled>
+              <option>Select your board type first.</option>
             </select> 
 
                     </div>
@@ -409,10 +403,10 @@
             </div>
 
             <!-- News Updates Checkbox-->
-            <label for="myCheck">Animal Updates</label>
+            <label for="myCheck">Board updates?</label>
             <input type="checkbox" id="myCheck" onclick="myFunction()">
 
-            <p id="text" style="display:none">You will be signed up to receive animal updates.</p>
+            <p id="text" style="display:none">You will be signed up to receive board updates.</p>
 
             <!-- Script for Animal Updates Checkbox -->
             <script>

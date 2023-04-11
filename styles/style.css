@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, blue, grey, black, silver);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -22,11 +22,17 @@ body {
     }
 
 
+
 /* Styling for Form */
 
 h1 {
     font-family: 'Roboto Slab', serif;
+    color: white;
 
+}
+
+nav {
+    background-color: grey;
 }
 
 input[type=text],
