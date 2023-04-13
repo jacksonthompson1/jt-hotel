@@ -25,6 +25,10 @@ body {
 
 /* Styling for Form */
 
+.card {
+    margin: 0.5em;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
     color: white;
